@@ -52,11 +52,11 @@ export default class UniqueCountVisualization extends React.Component {
                                 {
                                     metadata: {
                                     id: 'uniques',
-                                    name: 'uniques',
+                                    name: data[0].metadata.groups[0].value,
                                     viz: 'main',
-                                    // units_data: {
-                                    //     y: 'MS',
-                                    // },
+                                    units_data: {
+                                       y: data[0].metadata.groups[0].value,
+                                    },
                                     },
                                     data: [
                                     { y: data[0].data.length }, // Current value.
