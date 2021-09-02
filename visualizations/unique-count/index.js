@@ -93,7 +93,7 @@ const EmptyState = () => (
                 An example NRQL query you can try is:
             </HeadingText>
             <code>
-            FROM Log select uniques(logCount) SINCE 1 day ago
+            FROM Log select uniques(logCount, 10000) SINCE 1 day ago
             </code>
         </CardBody>
     </Card>
