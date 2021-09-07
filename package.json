@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "unique-count-nerdlet",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "nr1 nerdpack:serve",
+        "test": "exit 0"
+    },
+    "nr1": {
+        "uuid": "2c4da5e3-f73b-4892-b685-7b1078776a60"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
+        "recharts": "^2.1.2"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not ie < 11",
+        "not dead"
+    ]
+}
